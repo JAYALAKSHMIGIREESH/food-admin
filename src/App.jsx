@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Home from './components/Home'
 
-export const backendUrl = "https://foodwebsite-backend-p5fx.onrender.com"
+export const backendUrl = "https://foodwebsite-backend-2.onrender.com"
 
 const App = () => {
   const [token, setToken] = useState(localStorage.getItem('token') || '')
