@@ -114,7 +114,7 @@ const Add = ({ token }) => {
             </div>
 
             <div className="mb-3">
-              <label className="form-label">Price ($)</label>
+              <label className="form-label">Price (Rs)</label>
               <input
                 onChange={(e) => setPrice(e.target.value)}
                 type="number"
