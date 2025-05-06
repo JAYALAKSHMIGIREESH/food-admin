@@ -3,8 +3,7 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-// Use hardcoded backend URL for now (replace with your actual backend API URL)
-const backendUrl = "http://localhost:3000"; // <-- Replace with your real backend URL if needed
+const backendUrl = "http://localhost:3000"; 
 
 const Auth = ({ setToken }) => {
   const [email, setEmail] = useState("");

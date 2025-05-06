@@ -1,5 +1,5 @@
 import React from 'react';
-import adminImage from '../assets/dash.png'; // Replace with your actual image path
+import adminImage from '../assets/dash.png'; 
 
 const Home = () => {
   return (

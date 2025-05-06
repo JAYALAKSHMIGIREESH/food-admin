@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar'
 import { Route, Routes } from 'react-router-dom'
 import Add from './pages/Add'
 import List from './pages/List'
-import Orders from './pages/Orders' // Keep the import
+import Orders from './pages/Orders' 
 import Login from './components/Login'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
@@ -27,10 +27,9 @@ const App = () => {
         <>
           <Sidebar setToken={setToken} />
 
-          {/* Main Content */}
           <div
             style={{
-              marginLeft: '250px', // same as sidebar width
+              marginLeft: '250px', 
               minHeight: '100vh',
               padding: '20px',
             }}
@@ -39,7 +38,7 @@ const App = () => {
             <Route path="/" element={<Home/>} />
               <Route path="/add" element={<Add token={token} />} />
               <Route path="/list" element={<List token={token} />} />
-              <Route path="/orders" element={<Orders token={token} />} /> {/* Pass token prop here */}
+              <Route path="/orders" element={<Orders token={token} />} /> 
             </Routes>
           </div>
         </>

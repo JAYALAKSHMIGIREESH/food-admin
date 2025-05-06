@@ -8,7 +8,6 @@ const Sidebar = ({ setToken }) => {
 
   return (
     <>
-      {/* Toggle button for small screens */}
       <button
         className="btn btn-outline-secondary d-md-none m-2"
         onClick={() => setIsCollapsed(!isCollapsed)}
@@ -22,7 +21,6 @@ const Sidebar = ({ setToken }) => {
         }`}
         style={{ width: "250px",backgroundColor:"lightslategrey" }}
       >
-        {/* Sidebar header */}
         <div className="d-flex justify-content-between align-items-center mb-4">
           <Link to={'/'} className="d-flex align-items-center text-white text-decoration-none">
             <img src={logo} alt="Grill & Chill Logo" className="w-25 me-2" />
