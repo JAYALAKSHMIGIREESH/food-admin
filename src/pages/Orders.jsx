@@ -77,7 +77,7 @@ const Orders = ({ token }) => {
                   </td>
                   <td>{new Date(Number(order.date)).toLocaleDateString()}</td>
                   <td>{order.status}</td>
-                  <td>${Number(order.amount).toFixed(2)}</td>
+                  <td>Rs:{Number(order.amount).toFixed(2)}</td>
                   <td>{order.paymentMethod}</td>
                   <td>{order.payment ? "Done" : "Pending"}</td>
                   <td>

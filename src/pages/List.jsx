@@ -77,7 +77,7 @@ const List = ({ token }) => {
                 <td className="text-truncate" style={{ maxWidth: '120px' }}>
                   {item.category}
                 </td>
-                <td>${item.price}</td>
+                <td>Rs:{item.price}</td>
                 <td>
                   <button className="btn btn-sm btn-danger" onClick={()=>removeProduct(item._id)}>Delete</button>
                 </td>
